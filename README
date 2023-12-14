@@ -1,0 +1,14 @@
+Note: This is built to be used in conjunction with 
+https://github.com/nathanpc/quickpoll
+
+Setup:
+1. Copy The QuickPollRequest Plugin from the /CT-P1-PollJsonRetreiver/Plugins/QuickPollRequest and place it in the EQUIVALENT folder in your project /YourGitFolder/Plugins/ if the plugins folder does not exist, just create it
+2. Right click your projects .uproject file (Blue Unreal Icon) Then Generate Visual Studio Project Files
+3. Once Done Open The Previous .uproject file, it will ask for you to recompile the modules, say yes
+4. In The Editor Ensure That The Plugin Is Enabled In [Edit -> Plugins -> QuickPollRequest]
+5. In The Editor Ensure You Have Plugin Content Visible, From The Top Right Content Browser Window [Settings -> Show Plugin Content]
+6. Open Up The Example Level In [Plugins/QuickPollRequest Content/Maps/QuickPollTestLevel
+7. ...
+8. Profit!
+
+Note: The examples show how to Request Data, And How To Extract Data From The Structures, It's Up To You To Give Said Data Meaning Depending On Your Project
